@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Mini Budget</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../bootstrap-3.3.7/dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+	<a id="logo"></a>
+			
+</header>
+<body><br>
+<br><br>
+<br>
+<br>
+<br>
+	<section>
+
+
+			
+  				<ul>
+  
+  					<li><a href="../index.html" class="current">Home</a></li>
+					<li><a href="bank.html">Bank Statement</a></li>
+					<li><a href="budget.html">Budget Planner</a></li>
+					<li><a href="goal.html">Financial Goals</a></li>
+
+				</ul>
+
+		
+
+	</section>
+    <section>
+    	
+        <h3>Financial Goals</h3><br>
+
+			<p>Watch the short video provided and try to work on some goals that you would like to acheive</p>
+    	<div class="image-left embed-video">
+			<div class="videoWrapper">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/hmAbHLH5xGc" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+    
+    </section>
+
+	</section>
+    
+	<section>
+		<h3>Goal 1</h3>
+			
+            Goal: <br><input type="text" Goal="Goal" value="">
+			<br>How Relevant: <br><input type="text" Goal="How Relevant" value="">
+			<br>How Much: <br><input type="text" How Much="How Much" value="">
+			<br>Acheivability: <br><input type="text" name="Acheivability" value="">
+			<br>How Long: <br><input type="text" name="How Long"> 
+			<br>Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
+ 			<br>Acheived:&nbsp;
+            <input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="Yes") echo "checked";?>
+<value="Yes">Yes
+			<input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="No") echo "checked";?>
+<value="No">No
+            
+	</section>
+    
+	<section>
+		<h3>Goal 2</h3>
+			Goal: <br><input type="text" Goal="Goal" value="">
+			<br>How Relevant: <br><input type="text" Goal="How Relevant" value="">
+			<br>How Much: <br><input type="text" How Much="How Much" value="">
+			<br>Acheivability: <br><input type="text" name="Acheivability" value="">
+			<br>How Long: <br><input type="text" name="How Long"> 
+			<br>Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
+ 			<br>Acheived:&nbsp;
+            <input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="Yes") echo "checked";?>
+<value="Yes">Yes
+			<input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="No") echo "checked";?>
+<value="No">No
+
+	</section>
+    
+    <section>
+    	<h3>Goal 3</h3>
+        	Goal: <br><input type="text" Goal="Goal" value="">
+			<br>How Relevant: <br><input type="text" Goal="How Relevant" value="">
+			<br>How Much: <br><input type="text" How Much="How Much" value="">
+			<br>Acheivability: <br><input type="text" name="Acheivability" value="">
+			<br>How Long: <br><input type="text" name="How Long"> 
+			<br>Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
+ 			<br>Acheived:&nbsp;
+            <input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="Yes") echo "checked";?>
+<value="Yes">Yes
+			<input type="radio" name="Acheived"<?php if (isset($Acheived) && $Acheived=="No") echo "checked";?>
+<value="No">No
+            
+    </section>
+
+	</body>
+		<footer>
+			<p>@2016 My Mini Budget</p>
+		</footer>
+</html>
